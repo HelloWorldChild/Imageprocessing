@@ -1,0 +1,36 @@
+#adding two images
+import cv2
+mountain = cv2.imread('C:/Users/User/Downloads/Image processing/cat.jpg', 1)
+dog = cv2.imread('C:/Users/User/Downloads/Image processing/cat2.jpg', 1)
+img = cv2.add(mountain, dog)
+cv2.imshow('image', img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+#subtracting two images
+import cv2
+mountain = cv2.imread('C:/Users/User/Downloads/Image processing/cat.jpg', 1)
+dog = cv2.imread('C:/Users/User/Downloads/Image processing/cat2.jpg', 1)
+img = cv2.subtract(mountain, dog)
+cv2.imshow('image', img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+#mutiply two images
+import cv2
+mountain = cv2.imread('C:/Users/User/Downloads/Image processing/cat.jpg', 1)
+dog = cv2.imread('C:/Users/User/Downloads/Image processing/cat2.jpg', 1)
+img = cv2.multiply(mountain, dog)
+cv2.imshow('image', img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+#divide two images
+import cv2
+mountain = cv2.imread('C:/Users/User/Downloads/Image processing/cat.jpg', 1)
+dog = cv2.imread('C:/Users/User/Downloads/Image processing/cat2.jpg', 1)
+img = cv2.multiply(mountain, dog)
+cv2.imshow('image', img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
