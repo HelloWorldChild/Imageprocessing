@@ -1,2 +1,2 @@
 # Imageprocessing Lab Contents 
-#for all the poor people of boys hostel
+# for all the poor people of boys hostel
